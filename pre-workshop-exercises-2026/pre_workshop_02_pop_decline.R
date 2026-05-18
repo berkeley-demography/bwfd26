@@ -24,6 +24,10 @@
 ##    - Motivation for learning how to do useful mathematical analysis of
 ##      peak pop
 ##
+##  Reference Material:
+##    "The Formal Demography of Peak Population" by Goldstein and Cassidy (2024).
+##    - Google Drive link to reading: http://bit.ly/4uQnTfe
+##
 ##  Two surprises to look out for
 ##  -----------------------------
 ##    - Births start to decline *before* fertility reaches replacement.
