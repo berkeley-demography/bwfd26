@@ -35,6 +35,7 @@
 ## ============================================================================
 
 library(data.table)
+library(here)
 
 fraction_female <- 0.4886    # Wachter standard fraction female at birth 
 n    <- 5         # width of age interval (years)
@@ -44,7 +45,7 @@ n    <- 5         # width of age interval (years)
 ##  1. Read 1970 demographic rates
 ## ============================================================================
 
-brazil.dt <- fread('~/bwfd26/pre-workshop-exercises-2026/resources/brazil_like_country_data.csv')
+brazil.dt <- fread(here('bwfd26/pre-workshop-exercises-2026/resources/brazil_like_country_data.csv'))
 x   <- brazil.dt$x      # age at start of interval
 nLx <- brazil.dt$nLx    # life-table person-years (gets us portion surviving to each age interval)
 nFx <- brazil.dt$nFx    # age-specific fertility rates
