@@ -22,7 +22,7 @@ loc <- "Brazil"
 ## read indicators and restrict to this country + selected variables
 ## (optional: look at names(dt_full) to list all variables)
 library(data.table)
-dt_full <- fread("~/Data/wpp/WPP2024_Demographic_Indicators_Medium.csv")
+dt_full <- fread("~/bwfd26/goldstein-peak-population/data/WPP2024_Demographic_Indicators_Medium.csv")
 dt <- dt_full[Location == loc & !is.na(NRR),
               .(Location, Time, NRR, LEx, NetMigrations, Births, TPopulation1July)]
 setorder(dt, Time)

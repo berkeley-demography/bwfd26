@@ -26,8 +26,8 @@
 ## "wrong", but the 150-year burn-in lets the transient decay.
 
 ## ---- schedules: Brazil 2000 (UN WPP2024), single year of age ----------
-csv <- "brazil_2000_1_year_rates.csv" ## pre-extracted for you
-if (!file.exists(csv)) csv <- file.path("..", csv)   # script lives in slides/
+csv <- "~/bwfd26/goldstein-peak-population/data/brazil_2000_1_year_rates.csv" ## pre-extracted for you
+#if (!file.exists(csv)) csv <- file.path("", csv)   # script lives in slides/
 br  <- read.csv(csv)
 
 x  <- br$x                             # ages 0..100
