@@ -1,6 +1,7 @@
 # read in a bunch of Lx's, Fx's and Kx's from a few countries
 # They're 5-year age groups so let's say our projection step is 5 years
 # I'm assuming the radix is 1. If not, I have to adjust everything by the radix. 
+
 library(here)
 
 dat = read.csv(here("bwfd26/Chung-demo-code/projection-rates.csv"))
